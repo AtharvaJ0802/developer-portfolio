@@ -1,35 +1,46 @@
 export const personalInfo = {
-  name: "Saurabh Lohokare",
-  title: "Software Engineer & Full-Stack Developer",
-  email: "lohokare.s@northeastern.edu",
-  phone: "+1 (857) 302-9360",
-  location: "Boston, MA",
-  linkedin: "linkedin.com/in/saurabh-lohokare",
-  github: "github.com/Saurabhpl2408",
-  intro: "Passionate about translating business requirements into effective technical solutions. I enjoy building scalable web applications and data-driven solutions. I specialize in full-stack development with a focus on modern web technologies, analytics, and AI integration."
+  name: "Atharva Joshi",
+  title: "Graduate Student | Software Engineer | AI & Systems Developer",
+  email: "aj3220@rit.edu",
+  phone: "+1 (585)-305-0910",
+  location: "Rochester, NY",
+  linkedin: "linkedin.com/in/atharva-joshi0802",
+  github: "github.com/AtharvaJ0802",
+  intro:
+    "Graduate Computer Science student at RIT passionate about scalable systems, automation, and intelligent software solutions. Experienced in distributed data processing, AI agent design, and mainframe optimization with a focus on reliability, performance, and innovation.",
 };
 
 export const education = [
   {
     id: 1,
-    institution: "Northeastern University",
-    location: "Boston, MA",
+    institution: "Rochester Institute of Technology",
+    location: "Rochester, NY",
     degree: "Master of Science in Computer Science",
-    duration: "Sep 2025 – May 2027",
-    coursework: ["Programming Design Paradigms", "Database Management Systems"],
+    duration: "Aug 2024 – May 2026",
+    coursework: [
+      "Algorithms",
+      "Database Systems",
+      "Artificial Intelligence",
+      "Computer Graphics",
+      "Computer Vision",
+    ],
+    gpa: "4.0/4.0",
     logo: "🎓",
   },
   {
     id: 2,
-    institution: "University of Pune",
+    institution: "Savitribai Phule Pune University",
     location: "Pune, India",
-    degree: "Bachelor of Engineering in Information Technology",
-    duration: "Jul 2019 – May 2023",
+    degree: "Bachelor of Engineering in Electronics and Telecommunications",
+    duration: "Aug 2017 – May 2021",
     coursework: [
-      "Distributed Systems",
-      "Web Development",
+      "Machine Learning",
+      "Artificial Intelligence",
       "Data Structures and Algorithms",
+      "Object Oriented Programming",
+      "Robotics",
     ],
+    gpa: "3.78/4.0",
     logo: "🎓",
   },
 ];
@@ -37,80 +48,55 @@ export const education = [
 export const skills = {
   "Programming Languages": [
     { name: "Python", icon: "SiPython", color: "#3776AB" },
-    { name: "JavaScript", icon: "SiJavascript", color: "#F7DF1E" },
-    { name: "TypeScript", icon: "SiTypescript", color: "#3178C6" },
-    { name: "SQL", icon: "SiMysql", color: "#4479A1" },
-    { name: ".NET Core", icon: "SiDotnet", color: "#512BD4" },
     { name: "Java", icon: "SiOpenjdk", color: "#437291" },
+    { name: "C++", icon: "SiCplusplus", color: "#00599C" },
+    { name: "MATLAB", icon: "SiMathworks", color: "#0076A8" },
+    { name: "VHDL", icon: "SiV", color: "#6C7A89" },
   ],
   "Web Technologies": [
-    { name: "React", icon: "SiReact", color: "#61DAFB" },
-    { name: "Next.js", icon: "SiNextdotjs", color: "#000000" },
-    { name: "Node.js", icon: "SiNodedotjs", color: "#339933" },
-    { name: "Express.js", icon: "SiExpress", color: "#000000" },
-    { name: "FastAPI", icon: "SiFastapi", color: "#009688" },
-    { name: "Tailwind CSS", icon: "SiTailwindcss", color: "#06B6D4" },
-  ],
-  "Analytics & Reporting": [
-    {
-      name: "Google Tag Manager",
-      icon: "SiGoogletagmanager",
-      color: "#246FDB",
-    },
-    { name: "Google Analytics 4", icon: "SiGoogleanalytics", color: "#E37400" },
-    { name: "Looker Studio", icon: "SiLooker", color: "#4285F4" },
-    { name: "Grafana", icon: "SiGrafana", color: "#F46800" },
-    { name: "Tableau", icon: "SiTableau", color: "#E97627" },
-    { name: "PowerBI", icon: "SiPowerbi", color: "#F2C811" }, // Correct: SiPowerbi (lowercase 'bi')
-  ],
-  "AI & Data": [
-    { name: "Hugging Face", icon: "SiHuggingface", color: "#FFD21E" },
-    { name: "LLMs", icon: "SiOpenai", color: "#412991" },
-    { name: "LangChain", icon: "SiChainlink", color: "#375BD2" },
-    { name: "NLP", icon: "SiPython", color: "#3776AB" },
-    { name: "Computer Vision", icon: "SiOpencv", color: "#5C3EE8" },
-    { name: "Anomaly Detection", icon: "SiDatadog", color: "#632CA6" },
-  ],
-  "Database & Testing": [
-    { name: "PostgreSQL", icon: "SiPostgresql", color: "#4169E1" },
-    { name: "MongoDB", icon: "SiMongodb", color: "#47A248" },
+    { name: "HTML5", icon: "SiHtml5", color: "#E34F26" },
+    { name: "CSS3", icon: "SiCss3", color: "#1572B6" },
+    { name: "JavaScript", icon: "SiJavascript", color: "#F7DF1E" },
+    { name: "PHP", icon: "SiPhp", color: "#777BB4" },
+    { name: "jQuery", icon: "SiJquery", color: "#0769AD" },
     { name: "MySQL", icon: "SiMysql", color: "#4479A1" },
-    { name: "Supabase", icon: "SiSupabase", color: "#3ECF8E" },
-    { name: "Jest", icon: "SiJest", color: "#C21325" },
+    { name: "MongoDB", icon: "SiMongodb", color: "#47A248" },
+    { name: "p5.js", icon: "SiProcessingfoundation", color: "#ED225D" },
+    { name: "three.js", icon: "SiThreedotjs", color: "#000000" },
   ],
-  "DevOps & Cloud": [
-    { name: "Docker", icon: "SiDocker", color: "#2496ED" },
-    { name: "Kubernetes", icon: "SiKubernetes", color: "#326CE5" },
-    { name: "Kafka", icon: "SiApachekafka", color: "#000000" }, 
-    { name: "AWS", icon: "SiAmazonwebservices", color: "#FF9900" }, 
-    { name: "BigQuery", icon: "SiGooglebigquery", color: "#669DF6" },
+  "Libraries & Frameworks": [
+    { name: "React.js", icon: "SiReact", color: "#61DAFB" },
+    { name: "Django", icon: "SiDjango", color: "#092E20" },
+    { name: "Next.js", icon: "SiNextdotjs", color: "#000000" },
+    { name: "PyTorch", icon: "SiPytorch", color: "#EE4C2C" },
+    { name: "NumPy", icon: "SiNumpy", color: "#013243" },
+    { name: "Pandas", icon: "SiPandas", color: "#150458" },
+    { name: "Matplotlib", icon: "SiPlotly", color: "#3F4F75" },
+  ],
+  "Tools & Platforms": [
+    { name: "Git", icon: "SiGit", color: "#F05032" },
+    { name: "GitHub", icon: "SiGithub", color: "#181717" },
+    { name: "Jira", icon: "SiJirasoftware", color: "#0052CC" },
+    { name: "Linux", icon: "SiLinux", color: "#FCC624" },
+    { name: "AWS", icon: "SiAmazonwebservices", color: "#FF9900" },
   ],
 };
 
 export const experience = [
   {
     id: 1,
-    company: "DealerOn",
-    role: "Member Technical",
+    company: "Accenture",
+    role: "Software Engineer",
     location: "Pune, India",
-    duration: "Sep 2023 – Jun 2025",
-    logo: "/src/assets/dealeron-logo.png",
+    duration: "Jul 2021 – Jun 2024",
+    logo: "/src/assets/accenture-logo.png",
     responsibilities: [
-      "Engineered a user tracking tool for automotive OEM websites, leveraging TypeScript, JavaScript, Redux, Google Tag Manager, and .NET to enable data-driven decisions on 10+ dealership portals",
-      "Migrated analytics from Universal Analytics to GA4 and redesigned schemas and automated reports via Looker Studio API, streamlining workflows by 80% and reducing turnaround from 3 days to under 1 day",
-      "Orchestrated the OEM Overnighter Program, ensuring on-time delivery of feature rollouts for 10 automotive companies",
-    ],
-  },
-  {
-    id: 2,
-    company: "Atomic Loops Pvt. Ltd",
-    role: "Frontend Development Intern",
-    location: "Pune, India",
-    duration: "Apr 2022 – Jul 2022",
-    logo: "/src/assets/atomicloops-logo.png",
-    responsibilities: [
-      "Developed responsive, scalable web applications boosting Lighthouse mobile performance to 90%",
-      "Implemented UIs using React.js, JavaScript, and Tailwind CSS with cross-device compatibility and integrated third-party APIs (Razorpay) to enable secure payment workflows",
+      "Led data setup and batch execution for UK Branch Accounting mainframe system, identifying recurring defects and automating REXX processes to reduce operational time by **35%**.",
+      "Developed and deployed end-to-end test automation scripts using JCL and REXX, improving testing efficiency by **40%** and traceability across **14+** enterprise financial releases.",
+      "Optimized batch workflows with IBM utilities (DFSORT, IDCAMS) to streamline data processing, ensuring **100% on-time delivery**.",
+      "Resolved complex production failures in COBOL-based systems, enhancing reliability and reducing downtime by **25%**.",
+      "Mentored new hires in COBOL, JCL, and VSAM, conducting multiple knowledge transfer sessions to sustain project continuity.",
+      "Collaborated with analysts and client teams to troubleshoot integration issues, improving cross-system performance.",
     ],
   },
 ];
@@ -118,108 +104,66 @@ export const experience = [
 export const projects = [
   {
     id: 1,
-    name: "Obscenity Blocker Extension",
-    description:
-      "Chrome extension detecting explicit content in real-time with 92% accuracy on sample datasets. Architected a modular microservices system processing 5–10 concurrent content streams efficiently.",
-    duration: "Aug 2023 – Nov 2023",
-    github: "https://github.com/Saurabhpl2408/obscenity-blocker",
-    tech: ["Chrome Extension", "Microservices", "Python", "Machine Learning"],
-    image: "🔒",
-  },
-  {
-    id: 2,
     name: "Real-Time Event Analytics Platform",
     description:
-      "Microservices platform for event ingestion using Kafka, Python, and PostgreSQL, handling 500–1,000 events per minute. Deployed with Grafana dashboards for monitoring throughput and latency.",
-    duration: "Jan 2025 – May 2025",
-    github:
-      "https://github.com/Saurabhpl2408/real-time-event-analytics-dashboard",
+      "Built a microservices platform for event ingestion using Kafka, Python, and PostgreSQL, handling **500–1,000 events per minute** on a single-node setup. Deployed Grafana dashboards for monitoring throughput and latency with real-time anomaly alerts.",
+    duration: "Oct 2025",
+    github: "https://github.com/AtharvaJ0802/real-time-event-analytics-dashboard",
     tech: ["Kafka", "Python", "PostgreSQL", "Grafana", "Microservices"],
     image: "📊",
   },
-  // {
-  //   id: 3,
-  //   name: "Conversational Analytics Dashboard",
-  //   description:
-  //     "AI-powered dashboard with Next.js and MongoDB converting natural language queries to SQL. Integrated LangChain and Hugging Face models achieving 85% query accuracy, optimized for 10–20 concurrent users.",
-  //   duration: "May 2025 – Sep 2025",
-  //   tech: ["Next.js", "MongoDB", "Django", "LangChain", "Hugging Face", "AI"],
-  //   image: "💬",
-  // },
+  {
+    id: 2,
+    name: "GitHub Archive Data Analysis System",
+    description:
+      "Engineered a large-scale data pipeline to analyze **97M+ GitHub Archive events**, integrating relational modeling, cleaning, and indexing for efficient querying. Optimized PostgreSQL access patterns improving performance by **50%**.",
+    duration: "Sep 2025 – Dec 2025",
+    github: "https://github.com/AtharvaJ0802/CSCI-620Project",
+    tech: ["PostgreSQL", "Python", "ETL", "Data Analysis"],
+    image: "🗄️",
+  },
   {
     id: 3,
-    name: "InsightBot - AI Market Research Agent",
+    name: "Multi-Agent Tutor Bot",
     description:
-      "AI-powered agent leveraging RAG pipelines and LLMs to extract, summarize, and visualize market insights from financial APIs, CSVs, and news sources. Integrated ChromaDB vector search with Hugging Face embeddings for context-aware retrieval.",
-    duration: "Sept 2025 – Present",
-    github: "https://github.com/Saurabhpl2408/insightbot-ai",
-    tech: ["Next.js", "Tailwind CSS", "ChromaDB", "Hugging Face", "RAG", "LLMs"],
-    image: "📈",
+      "Developed an AI tutoring assistant using Python, FastAPI, and Gemini API for natural language understanding. Implemented main Tutor Agent delegating tasks to Math and Physics agents, improving response accuracy by **30%**.",
+    duration: "May 2025 – Jul 2025",
+    github: "https://github.com/AtharvaJ0802/Multi-Agent-Tutor-Bot",
+    tech: ["Python", "FastAPI", "LLMs", "Gemini API", "AI Agents"],
+    image: "🤖",
+  },
+  {
+    id: 4,
+    name: "Autonomous Intelligent Vehicle (AIV)",
+    description:
+      "Designed an indoor autonomous robot using Raspberry Pi, PID control, and Dijkstra’s algorithm for pathfinding. Achieved **±3 cm navigation accuracy** and adaptive obstacle avoidance via sensor feedback.",
+    duration: "Aug 2020 – Jul 2021",
+    github: "https://github.com/AtharvaJ0802/AIV",
+    tech: ["Raspberry Pi", "PID Control", "Dijkstra", "Robotics", "C++", "Python"],
+    image: "🚗",
   },
 ];
 
 export const publications = [
   {
     id: 1,
-    title: "An Automated Solution for Department Data Management System (DDMS)",
-    authors: "Saurabh Lohokare, et al.",
-    publication:
-      "International Journal of Creative Research Thoughts (IJCRT), Volume 11, Issue 9",
-    year: "2023",
-    link: "https://ijcrt.org/papers/IJCRT2309035.pdf",
+    title:
+      "Performance Evaluation and Comparative Analysis of AODV, DYMO, IARP, and IERP Routing Protocols in Ad Hoc Networks",
+    publication: "E-ISSN: 2147-6799, March 2024",
+    authors: "Atharva Joshi, et al.",
+    year: "2024",
+    link: "", // Link not provided in resume
     description:
-      "Proposed a Progressive Web App to automate departmental data management tasks such as attendance tracking, result mapping, and handling CSV, Excel, and scanned PDF files to improve efficiency in educational institutions.",
+      "Evaluated and compared routing protocols in mobile ad hoc networks through simulation-based performance analysis on throughput, delay, and packet loss metrics.",
   },
 ];
 
 export const awards = [
-  {
-    id: 1,
-    title: "Smart India Hackathon 2022",
-    issuer: "Government of India",
-    date: "August 2022",
-    description:
-      "My team Bitt By Bitt won the Smart India Hackathon 2022 with a solution to facilitate access to government schemes for disabled people through a progressive web app. The project was developed using React, Node.js, and MongoDB, and deployed on AWS, with accessibility-focused features to ensure ease of use for people with disabilities.",
-    certificate:
-      "/src/assets/certificates/Saurabh_Lohokare_SIH_Certificate.pdf",
-  },
-  {
-    id: 2,
-    title: "UNESCO India-Africa Hackathon 2022",
-    issuer: "UNESCO",
-    date: "November 2022",
-    description:
-      "My team Hash Clashers won the UNESCO India-Africa Hackathon 2022, a 36-hour international event with 22 participating countries. Our project addressed the underutilization and lack of mechanisms for acting on partograms, a vital tool used during labor to monitor maternal and fetal health. We built a solution using Modular JavaScript, Node.js, Chart.js, and MongoDB to streamline partogram interpretation and enable timely medical decisions, with the goal of improving maternal healthcare outcomes.",
-    certificate:
-      "/src/assets/certificates/Saurabh_Lohokare_UIA_Certificate.pdf",
-  },
+  // Add your awards or academic recognitions here if applicable
 ];
 
 export const recommendations = [
-  {
-    id: 1,
-    name: "Colleen Harris",
-    title: "Director of Product Insights at DealerIn",
-    location: "Seattle, Washington, United States",
-    image: "👤",
-    relationship: "Colleague at DealerOn",
-    text: "Saurabh was an amazing member of my tagging team. Our tagging system is the foundational layer for all data analytics and Saurabh jumped into the team headfirst. He asked very good questions and never asked the same question more than once. Saurabh was instrumental in building out a process to streamline a complicated tagging request system into a simple process. It took normal requests that started at 4-5 days to complete and he built the process that got it done within 24 hours. He will be an asset to any team he joins.",
-    date: "29th Sept 2025",
-    url: "https://www.linkedin.com/in/saurabh-lohokare/details/recommendations/",
-  },
-
-  {
-    id: 2,
-    name: "Gampeshwar Kumar Sahu",
-    title: "Principal Consultant at DealerOn",
-    location: "India",
-    coordinates: [78.9629, 20.5937],
-    image: "👤",
-    relationship: "Manager at DealerOn",
-    text: "I had the pleasure of working with Saurabh in the tagging team, where he consistently demonstrated deep expertise in JavaScript, GA4, and Google Tag Manager. His ability to implement complex tracking solutions and troubleshoot intricate tagging issues was truly impressive. He played a key role in ensuring our analytics setup was robust, scalable, and aligned with business goals. What stood out most was his proactive approach to problem-solving and his willingness to collaborate across teams to deliver high-quality solutions. Whether it was setting up custom events, debugging data layers, or optimizing tag configurations, Saurabh always brought clarity and precision to the task. He's not only technically strong but also a great team player, and I highly recommend him for any role that requires strong analytical and implementation skills in the digital analytics space.",
-    date: "26th Sept 2025",
-    url: "https://www.linkedin.com/in/saurabh-lohokare/details/recommendations/",
-  }
+  // Add LinkedIn recommendations or manager feedback here if available
 ];
 
 export const certifications = [

@@ -2,12 +2,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Calendar } from "lucide-react";
 import { experience } from "@/data/portfolio-data";
-import dealerOnLogo from "@/assets/dealeron-logo.png";
-import atomicLoopsLogo from "@/assets/atomicloops-logo.png";
+import accentureLogo from "@/assets/accenture-logo.png";
 
 const logoMap: Record<string, string> = {
-  "/src/assets/dealeron-logo.png": dealerOnLogo,
-  "/src/assets/atomicloops-logo.png": atomicLoopsLogo,
+  "/src/assets/accenture-logo.png": accentureLogo,
+
 };
 
 export function Experience() {
